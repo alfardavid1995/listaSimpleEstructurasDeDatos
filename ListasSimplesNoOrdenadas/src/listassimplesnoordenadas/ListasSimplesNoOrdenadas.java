@@ -12,7 +12,7 @@ public class ListasSimplesNoOrdenadas {
         
         System.out.println(laLista);
         
-        System.out.println("*****Lista con reemplazo*****");
+        System.out.println("*****Lista con reemplazo menor*****");
         laLista.reemplazar(new Casa(1998,3));
         System.out.println(laLista);
         
@@ -20,11 +20,11 @@ public class ListasSimplesNoOrdenadas {
         laLista.reemplazar(new Casa(2040,3));
         System.out.println(laLista);
         
-         System.out.println("*****Lista con reemplazo*****");
+         System.out.println("*****Lista con reemplazo mayor*****");
         laLista.reemplazar(new Casa(2001,3));
         System.out.println(laLista);
         
-         System.out.println("*****Lista con reemplazo*****");
+         System.out.println("*****Lista con reemplazo menor*****");
         laLista.reemplazar(new Casa(1997,3));
         System.out.println(laLista);
         
