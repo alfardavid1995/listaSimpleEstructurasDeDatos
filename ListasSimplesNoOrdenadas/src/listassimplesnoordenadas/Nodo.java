@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package listassimplesnoordenadas;
 
-/**
- *
- * @author joseriveratencio
- */
 public class Nodo {
-    private Persona dato;
+    private Casa dato;
     private Nodo next;
     
     @Override
@@ -17,15 +9,15 @@ public class Nodo {
         return "Nodo{"+"dato="+dato+'}';
     }
     
-    public Nodo(Persona dato){
+    public Nodo(Casa dato){
         this.dato=dato;
     }
 
-    public Persona getDato() {
+    public Casa getDato() {
         return dato;
     }
 
-    public void setDato(Persona dato) {
+    public void setDato(Casa dato) {
         this.dato = dato;
     }
 

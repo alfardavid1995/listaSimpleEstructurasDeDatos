@@ -4,14 +4,10 @@
  */
 package listassimplesnoordenadas;
 
-/**
- *
- * @author joseriveratencio
- */
 public class Lista {
     private Nodo cabeza;
     
-    public void inserta(Persona p){
+    public void inserta(Casa p){
         if(cabeza==null){
             cabeza = new Nodo(p);
         }else if(p.getId()<cabeza.getDato().getId()){
@@ -55,7 +51,7 @@ public class Lista {
         return esta;
     }
     
-    public void modifica (Persona p) {
+    public void modifica (Casa p) {
         //busca a si existe alguien con el id, y le actualiza el nombre
         if (cabeza != null) {
             //Si hay algo en la lista buscaré
@@ -98,8 +94,8 @@ public class Lista {
         }
     }
     
-    public Persona extrae (int id) {
-        Persona p = null;
+    public Casa extrae (int id) {
+        Casa p = null;
         //si una persona tiene el id, lo extrae (eliminando y retornando)
         if (cabeza != null) { //Si hay algo en la lista buscaré
             if (cabeza.getDato () .getId () == id) {
